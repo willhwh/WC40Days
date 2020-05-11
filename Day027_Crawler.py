@@ -106,15 +106,14 @@ class D27CrawlerSpider(scrapy.Spider):
             if not push.find('span', 'push-tag'):
                 continue
 
-                push_tag = push.find('span', 'push-tag').string.strip(' \t\n\r')
-                push_userid = push.find('span', 'push-userid').string.strip(' \t\n\r')
-                push_content= push.xpath('//span/text()')[2]
-                #push_content = push.find('span', 'push-content').strings
-                #push_content = ' '.join(push_content)[1:].strip(' \t\n\r')
-                push_ipdatetime = push.find('span', 'push-ipdatetime').string.strip(' \t\n\r')
+            push_tag = push.find('span', 'push-tag').string.strip(' \t\n\r')
+            push_userid = push.find('span', 'push-userid').string.strip(' \t\n\r')
+            push_content = push.find('span', 'push-content').strings
+            push_content = ' '.join(push_content)[1:].strip(' \t\n\r')
+            push_ipdatetime = push.find('span', 'push-ipdatetime').string.strip(' \t\n\r')
 
-                #整理資訊
-                messages.append({
+            #整理資訊
+            messages.append({
                 'push_tag': push_tag,
                 'push_userid': push_userid,
                 'push_content': push_content,
