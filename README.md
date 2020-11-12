@@ -46,7 +46,7 @@
 
 
 ## Scrapy 網站爬蟲框架
-25. [多網頁爬蟲實作策略介紹]()
+25. [多網頁爬蟲實作策略介紹](https://github.com/willhwh/WC40Days/blob/master/Day025_MultiPage_Sample.ipynb)
 大量爬蟲的起點: 多網頁 / 多網站爬蟲策略
 25. [Scrapy 爬蟲流程 (1) - 建立流程 + 送出請求](https://github.com/willhwh/WC40Days/blob/master/Day026_PTTCrawler.py)
 Scrapy 爬蟲框架初探 (1): 建立專案與請求
