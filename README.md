@@ -3,9 +3,7 @@
 ## 爬蟲基礎知識
 1. [資料來源與檔案存取](https://github.com/willhwh/WC40Days/blob/master/Day001_HW.ipynb)介紹常見的資料提供管道與 資料取得方式，並且利用 Python 進行存取
 1. [實作：Python 下載CSV檔案與解析](https://github.com/willhwh/WC40Days/blob/master/Day002_HW.ipynb)
-
 1. [實作：Python 下載XML檔案與解析](https://github.com/willhwh/WC40Days/blob/master/Day003_HW.ipynb)
-
 1. [HTTP Server-Client 架構說明與 利用 Python 存取 API](https://github.com/willhwh/WC40Days/blob/master/Day004_HW.ipynb)
 淺談 HTTP 網站架構與運作方式， 如何利用 Python 程式存取來自 HTTP API 的資源
 1. [實作 Day：API 資料串接 - 基本 API + JSON](https://github.com/willhwh/WC40Days/blob/master/Day005_HW.ipynb)
@@ -28,7 +26,7 @@
 7. [實作 Day：PTT(批踢踢)網路爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day013_HW.ipynb)
 7. [實作 Day：Yahoo! 電影網頁爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day014_Yahoo_Movie_HW.ipynb)
 7. [實作 Day：金融資訊網頁爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day015_Taiwan_Bank_HW.ipynb)
-7. [實作 Day：Wiki的爬蟲實作練習](hhttps://github.com/willhwh/WC40Days/blob/master/Day016_Wikipedia_HW.ipynb)
+7. [實作 Day：Wiki的爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day016_Wikipedia_HW.ipynb)
 
 ## 動態網頁爬蟲技術
 17. [HTTP 動態網頁架構說明與非同步取得資料](https://github.com/willhwh/WC40Days/blob/master/Day017_HW.ipynb)
@@ -42,8 +40,6 @@
 17. [動態網頁資料爬蟲：Hahow 爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day022_HW.ipynb)
 17. [實作 Day：東森新聞雲網站爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day023_ETtoday_News_HW.ipynb)
 17. [實作 Day：104人力銀行網站爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day024_104HR_HW.ipynb)
-
-
 
 ## Scrapy 網站爬蟲框架
 25. [多網頁爬蟲實作策略介紹](https://github.com/willhwh/WC40Days/blob/master/Day025_MultiPage_Sample.ipynb)
@@ -74,7 +70,6 @@ Scrapt 爬蟲框架初探 (4): 以 PTT 為例實作框架多網頁爬蟲
 利用非同步加速爬蟲的執行時間
 30. [自動化更新機制(排程)](https://github.com/willhwh/WC40Days/blob/master/Day037_main.py)
 梯度提升機 (Gradient Boosting Machine) 模型的理論基礎與使用時的注意事項
-
 
 ## 期末實戰專題
 38. [期末專題](https://github.com/willhwh/WC40Days/blob/master/Day40_Switch_Game_Price%20Crawler.ipynb)
