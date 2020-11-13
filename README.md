@@ -27,7 +27,7 @@
 17. [瀏覽器開發者工具介紹](https://github.com/willhwh/WC40Days/blob/master/Day018_HW.ipynb) 介紹瀏覽器開發工具
 17. [動態網頁爬蟲 - 使用Selenium + BeautifulSoup 模擬瀏覽器執行](https://github.com/willhwh/WC40Days/blob/master/Day019_HW.ipynb)
 17. [動態網頁爬蟲 - 利用開發者工具，觀察模擬 API 存取](https://github.com/willhwh/WC40Days/blob/master/Day020_HW.ipynb) 示範如何使用瀏覽器開發工具實作動態網頁爬蟲
-17. [實作 Day：ETTODAY 動態爬蟲實作練習](hhttps://github.com/willhwh/WC40Days/blob/master/Day021_HW.ipynb)
+17. [實作 Day：ETTODAY 動態爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day021_HW.ipynb)
 17. [動態網頁資料爬蟲：Hahow 爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day022_HW.ipynb)
 17. [實作 Day：東森新聞雲網站爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day023_ETtoday_News_HW.ipynb)
 17. [實作 Day：104人力銀行網站爬蟲實作練習](https://github.com/willhwh/WC40Days/blob/master/Day024_104HR_HW.ipynb)
