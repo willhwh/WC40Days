@@ -1,0 +1,78 @@
+1. 建立 Project
+    scrapy startproject __project_name__
+2. 自動建立一些文件和設定
+    scrapy.cfg：基礎設置
+    items.py：抓取條目的結構定義
+    middlewares.py：中間件定義
+    pipelines.py：管道定義，用於抓取數據後的處理
+    settings.py：全局設置
+    spiders\ptt.py：爬蟲主體，定義如何抓取需要的數據
+3. 自動建立一些文件和設定，資料結構如下
+    (ptt)
+    │ scrapy.cfg
+    │
+    └─ptt
+        │ items.py
+        │ middlewares.py
+        │ pipelines.py
+        │ settings.py
+        │ __init__.py
+        │
+        ├─spiders
+        │ │ ptt.py
+        │ │ __init__.py
+        │ │
+        │ └─__pycache__
+        │ __init__.cpython-36.pyc
+        │
+        └─__pycache__
+                settings.cpython-36.pyc
+                __init__.cpython-36.pyc
+                items.cpython-36.pyc
+
+4. 設定items.py
+    format: 
+        example1 = scrapy.Field()
+        example2 = scrapy.Field()
+
+5. 創立一個spider
+    cd ptt
+    scrapy genspider _spider_name_ domain (e.g. example.com)
+
+6. 撰寫spider 於_spider_name_.py
+    def start_requests()
+    def parse()
+    def pipelines
+
+    以下需在parse 裡 傳遞爬出的資訊給items
+     item = {
+            'author': author,
+            'title': title,
+            'time': datetime.strptime(time, '%a %b %d %H:%M:%S %Y'),
+            #這邊是示範 所以只取30的字
+            'text': text[0:30] + '...'
+        }
+
+7. 設定pipelines.py
+    class MyfirstscrapyprojectPipeline(object):
+        def process_item(self, item, spider):
+            item['example'] = int(item['example'])
+            return item
+
+8. 更改setting.py 啟動pipline
+    uncomments 
+    #ITEM_PIPELINES = {
+    #    'ptt.pipelines.PttPipeline': 300,
+    #}
+    to enable pipelines
+
+8. 啟動spider
+    # -o nba.csv指令 可以用來自動產生csv檔
+    scarpy crawl _spider_name_.py -o result.csv 
+
+
+Sources:
+
+https://www.learncodewithmike.com/2020/12/python-scrapy-architecture.html
+
+https://ithelp.ithome.com.tw/articles/10209849
