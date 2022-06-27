@@ -52,9 +52,9 @@ Scrapt 爬蟲框架初探 (4): 以 PTT 為例實作框架多網頁爬蟲
 利用 Cookie 來模仿網站中的登入行為
 30. [反爬：代理 IP](https://github.com/willhwh/WC40Days/blob/master/Day034_main.py)
 利用代理伺服器來解決 IP 被禁止使用的狀況
-30. [加速：多線程爬蟲](https://github.com/willhwh/WC40Days/blob/master/Day035_main.py)
+30. [加速：多線程爬蟲](https://github.com/willhwh/WC40Days/blob/master/Day035_HW.ipynb)
 利用多線程 加速爬蟲的執行時間
-30. [加速：非同步爬蟲](https://github.com/willhwh/WC40Days/blob/master/Day036_main.py)
+30. [加速：非同步爬蟲](https://github.com/willhwh/WC40Days/blob/master/Day036_HW.ipynb)
 利用非同步加速爬蟲的執行時間
 30. [自動化更新機制(排程)](https://github.com/willhwh/WC40Days/blob/master/Day037_main.py)
 梯度提升機 (Gradient Boosting Machine) 模型的理論基礎與使用時的注意事項
